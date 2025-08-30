@@ -386,7 +386,7 @@
             <div class="flex items-center space-x-4">
                 <span class="flex items-center">
                      <i class="fas fa-phone mr-2 text-yellow-300"></i>
-                     <span class="font-semibold">+15551234567</span>
+                     <span class="font-semibold">(762) 215-7355</span>
                  </span>
             </div>
             <div class="hidden md:flex items-center space-x-6 text-xs">
@@ -648,7 +648,7 @@
                         <!-- Content -->
                         <div class="iphone-gallery-content">
                             <video class="iphone-gallery-image" autoplay muted loop playsinline>
-                                <source src="images/gallery1.MOV" type="video/mp4">
+                                <source src="images/gallery1.mp4" type="video/mp4">
                             </video>
                         </div>
                     </div>
@@ -670,7 +670,7 @@
                         <!-- Content -->
                         <div class="iphone-gallery-content">
                             <video class="iphone-gallery-image" autoplay muted loop playsinline>
-                                <source src="images/gallery2.MOV" type="video/mp4">
+                                <source src="images/gallery2.mp4" type="video/mp4">
                             </video>
                         </div>
                     </div>
@@ -692,7 +692,7 @@
                         <!-- Content -->
                         <div class="iphone-gallery-content">
                             <video class="iphone-gallery-image" autoplay muted loop playsinline>
-                                <source src="images/gallery3.MOV" type="video/mp4">
+                                <source src="images/gallery3.mp4" type="video/mp4">
                             </video>
                         </div>
                     </div>
@@ -714,7 +714,7 @@
                         <!-- Content -->
                         <div class="iphone-gallery-content">
                             <video class="iphone-gallery-image" autoplay muted loop playsinline>
-                                <source src="images/gallery4.MOV" type="video/mp4">
+                                <source src="images/gallery4.mp4" type="video/mp4">
                             </video>
                         </div>
                     </div>
@@ -741,41 +741,42 @@
                 <div class="md:w-1/2 mb-10 md:mb-0 md:pr-12">
                     <h2 class="text-2xl md:text-3xl lg:text-4xl font-bold mb-6">About Johnson Car Detailing</h2>
                     <p class="text-charcoal mb-6">
-                        Located in the bustling city of Atlanta, GA, Johnson Car Detailing is a premier mobile car detailing service dedicated to bringing exceptional automotive care directly to your location.
+                        Located in the beautiful city of Augusta, GA, Johnson Car Detailing is a premier mobile car detailing service dedicated to bringing exceptional automotive care directly to your location.
                     </p>
                     <p class="text-charcoal mb-6">
                         Our mobile detailing service goes above and beyond, providing meticulous attention to every nook and cranny of your beloved automobile. From exterior waxing and polishing to interior vacuuming and upholstery cleaning, we ensure that your car receives the highest quality care at your convenience.
                     </p>
                     <p class="text-charcoal">
-                        With over 12 years of experience in mobile detailing, Johnson Car Detailing brings craftsmanship and passion to every vehicle we service. We treat your car with the same care we'd treat our own, all while saving you time and effort.
+                        Johnson Car Detailing brings craftsmanship and passion to every vehicle we service. We treat your car with the same care we'd treat our own, all while saving you time and effort.
                     </p>
                 </div>
                 <div class="md:w-1/2 flex justify-center">
                     <div class="relative">
-                        <!-- iPhone-style mockup frame -->
-                        <div class="w-72 h-[580px] bg-gradient-to-b from-gray-800 to-gray-900 rounded-[50px] p-2 shadow-2xl border border-gray-700 hover:shadow-3xl transition-all duration-500 hover:scale-105 transform">
-                            <!-- Side buttons -->
-                            <div class="absolute left-[-6px] top-16 w-1 h-6 bg-gray-600 rounded-full"></div>
-                            <div class="absolute left-[-6px] top-28 w-1 h-8 bg-gray-600 rounded-full"></div>
-                            <div class="absolute left-[-6px] top-40 w-1 h-8 bg-gray-600 rounded-full"></div>
-                            <div class="absolute right-[-6px] top-32 w-1 h-12 bg-gray-600 rounded-full"></div>
-                            
-                            <!-- Screen -->
-                            <div class="w-full h-full bg-black rounded-[44px] overflow-hidden relative border border-gray-600">
-                                <!-- Dynamic Island -->
-                                <div class="absolute top-4 left-1/2 transform -translate-x-1/2 w-24 h-5 bg-gray-900 rounded-full z-10"></div>
-                                
-                                <!-- Content area -->
-                                <div class="w-full h-full rounded-[37px] overflow-hidden relative">
+                        <!-- Modern Gradient Border Frame -->
+                        <div class="w-72 h-[580px] bg-gradient-to-br from-red-600 via-blue-600 to-red-800 rounded-3xl p-1 shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-105 transform">
+                            <!-- Inner container -->
+                            <div class="w-full h-full bg-white rounded-[22px] p-2">
+                                <!-- Video container -->
+                                <div class="w-full h-full rounded-2xl overflow-hidden relative shadow-inner">
                                     <!-- Video content -->
                                     <video class="w-full h-full object-cover" autoplay muted loop playsinline>
-                                        <source src="images/about_vid.mov" type="video/mp4">
+                                        <source src="images/about_vid.mp4" type="video/mp4">
                                     </video>
                                     
-
+                                    <!-- Overlay badge -->
+                                    <div class="absolute bottom-4 left-4 right-4">
+                                        <div class="bg-gradient-to-r from-red-600/90 to-blue-600/90 backdrop-blur-sm rounded-full px-4 py-2 text-center">
+                                            <p class="text-white text-sm font-semibold">Johnson Car Detailing</p>
+                                            <p class="text-white/80 text-xs">Augusta, GA</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
+                        
+                        <!-- Floating elements for visual interest -->
+                        <div class="absolute -top-4 -right-4 w-8 h-8 bg-red-600 rounded-full animate-float opacity-80"></div>
+                        <div class="absolute -bottom-6 -left-6 w-6 h-6 bg-blue-600 rounded-full animate-float opacity-60" style="animation-delay: 1s;"></div>
                     </div>
                 </div>
             </div>
@@ -786,54 +787,15 @@
     <section id="testimonials" class="py-16 bg-lightGray">
         <div class="container mx-auto px-6 md:px-8 lg:px-12">
             <h2 class="text-3xl font-bold text-center mb-2">What Our Clients Say</h2>
-            <p class="text-mediumGray text-center mb-12">Hear from satisfied customers</p>
+            <p class="text-mediumGray text-center mb-8">Hear from satisfied customers</p>
             
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <!-- Testimonial 1 -->
-                <div class="testimonial-card bg-white/70 backdrop-blur-xl border border-white/40 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-white/60">
-                    <div class="stars flex text-amber-400 mb-4">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="text-charcoal mb-4">
-                        "The convenience of having my car detailed at my office was amazing! Johnson Car Detailing arrived on time and my BMW looked absolutely stunning when he finished. Professional service from start to finish."
-                    </p>
-                    <p class="font-bold">- Jennifer L.</p>
-                </div>
-                
-                <!-- Testimonial 2 -->
-                <div class="testimonial-card bg-white/70 backdrop-blur-xl border border-white/40 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-white/60">
-                    <div class="stars flex text-amber-400 mb-4">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="text-charcoal mb-4">
-                        "Johnson's mobile service saved me so much time! They detailed my family SUV while I worked from home. The interior cleaning was exceptional - removed all the kids' stains and pet hair perfectly."
-                    </p>
-                    <p class="font-bold">- David M.</p>
-                </div>
-                
-                <!-- Testimonial 3 -->
-                <div class="testimonial-card bg-white/70 backdrop-blur-xl border border-white/40 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-white/60">
-                    <div class="stars flex text-amber-400 mb-4">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <p class="text-charcoal mb-4">
-                        "Outstanding work on my truck! Johnson Car Detailing came to my job site and transformed my dusty work vehicle into something that looks showroom ready. Highly recommend their mobile service!"
-                    </p>
-                    <p class="font-bold">- Carlos R.</p>
-                </div>
+
+            
+            <div id="testimonials-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Testimonials will be dynamically loaded here -->
             </div>
+            
+
         </div>
     </section>
 
@@ -848,7 +810,7 @@
                         <h3 class="text-xl font-bold text-primary mb-4">Location & Hours</h3>
                         <p class="mb-4">
                             <i class="fas fa-map-marker-alt text-primary mr-2"></i>
-                            123 Main Street, Your City, ST 12345 (By appointment only)
+                            Augusta, GA (Mobile service - we come to you!)
                         </p>
                         <p class="mb-2">
                             <i class="fas fa-clock text-primary mr-2"></i>
@@ -864,8 +826,14 @@
                         <h3 class="text-xl font-bold text-primary mb-4">Get in Touch</h3>
                         <p class="mb-4">
                             <i class="fas fa-phone-alt text-primary mr-2"></i>
-                            <a href="tel:+15551234567" class="hover:text-primary transition-colors">
-                                +1 (555) 123-4567
+                            <a href="tel:+17622157355" class="hover:text-primary transition-colors">
+                                (762) 215-7355
+                            </a>
+                        </p>
+                        <p class="mb-4">
+                            <i class="fas fa-envelope text-primary mr-2"></i>
+                            <a href="mailto:johnsonautodetailing.ga@gmail.com" class="hover:text-primary transition-colors">
+                                johnsonautodetailing.ga@gmail.com
                             </a>
                         </p>
                         <p class="mb-4">
@@ -874,21 +842,22 @@
                                 @johnsonautodetailingofga
                             </a>
                         </p>
-                        <p>
-                            <i class="fas fa-envelope text-primary mr-2"></i>
-                            <a href="mailto:johnsonautodetailingofga.com" class="hover:text-primary transition-colors">
-                                johnsonautodetailingofga.com
+                        <p class="mb-4">
+                            <i class="fab fa-facebook text-primary mr-2"></i>
+                            <a href="https://www.facebook.com/share/1LYCVFZFE9/?mibextid=wwXIfr" target="_blank" class="hover:text-primary transition-colors">
+                                Johnson Auto Detailing of Georgia
                             </a>
                         </p>
                     </div>
                     
                     <div>
                         <h3 class="text-xl font-bold text-primary mb-4">Find Us</h3>
-                        <div class="bg-mediumGray h-64 rounded-xl overflow-hidden flex items-center justify-center">
-                            <div class="text-center text-white">
-                                <i class="fas fa-map-marker-alt text-4xl mb-4"></i>
-                                <p class="text-lg font-semibold">Map Location</p>
-                                <p class="text-sm">123 Main Street, Your City, ST 12345</p>
+                        <div class="bg-gradient-to-br from-red-600/20 to-blue-600/20 h-64 rounded-xl overflow-hidden flex items-center justify-center border-2 border-primary/30">
+                            <div class="text-center text-charcoal">
+                                <i class="fas fa-map-marker-alt text-4xl mb-4 text-primary"></i>
+                                <p class="text-lg font-semibold">Service Area</p>
+                                <p class="text-sm mb-2">Augusta, GA & Surrounding Areas</p>
+                                <p class="text-xs text-mediumGray">Mobile detailing - we come to your location!</p>
                             </div>
                         </div>
                     </div>
@@ -940,13 +909,16 @@
                         <a href="#" target="_blank" class="text-gray-400 hover:text-white transition-colors" title="Instagram">
                             <i class="fab fa-instagram text-lg"></i>
                         </a>
+                        <a href="https://www.facebook.com/share/1LYCVFZFE9/?mibextid=wwXIfr" target="_blank" class="text-gray-400 hover:text-white transition-colors" title="Facebook">
+                            <i class="fab fa-facebook text-lg"></i>
+                        </a>
                         <a href="#" target="_blank" class="text-gray-400 hover:text-white transition-colors" title="Location">
                             <i class="fas fa-map-marker-alt text-lg"></i>
                         </a>
-                        <a href="tel:+15551234567" class="text-gray-400 hover:text-white transition-colors" title="Phone">
+                        <a href="tel:+17622157355" class="text-gray-400 hover:text-white transition-colors" title="Phone">
                             <i class="fas fa-phone text-lg"></i>
                         </a>
-                        <a href="mailto:johnsonautodetailingofga.com" class="text-gray-400 hover:text-white transition-colors" title="Email">
+                        <a href="mailto:johnsonautodetailing.ga@gmail.com" class="text-gray-400 hover:text-white transition-colors" title="Email">
                             <i class="fas fa-envelope text-lg"></i>
                         </a>
                     </div>
@@ -959,6 +931,49 @@
     </footer>
 
     <script>
+        // Testimonials Data - Easy to Update
+        const testimonials = [
+            {
+                stars: 5,
+                text: "The convenience of having my car detailed at my office was amazing! Johnson Car Detailing arrived on time and my BMW looked absolutely stunning when he finished. Professional service from start to finish.",
+                author: "Jennifer L."
+            },
+            {
+                stars: 5,
+                text: "Johnson's mobile service saved me so much time! They detailed my family SUV while I worked from home. The interior cleaning was exceptional - removed all the kids' stains and pet hair perfectly.",
+                author: "David M."
+            },
+            {
+                stars: 5,
+                text: "Outstanding work on my truck! Johnson Car Detailing came to my job site and transformed my dusty work vehicle into something that looks showroom ready. Highly recommend their mobile service!",
+                author: "Carlos R."
+            }
+        ];
+        
+        // Function to render testimonials
+        function renderTestimonials() {
+            const container = document.getElementById('testimonials-container');
+            container.innerHTML = '';
+            
+            testimonials.forEach(testimonial => {
+                const testimonialCard = document.createElement('div');
+                testimonialCard.className = 'testimonial-card bg-white/70 backdrop-blur-xl border border-white/40 rounded-2xl p-8 shadow-lg hover:shadow-xl transition-all duration-300 hover:scale-105 hover:border-white/60';
+                
+                const starsHtml = '★'.repeat(testimonial.stars);
+                
+                testimonialCard.innerHTML = `
+                    <div class="stars flex text-amber-400 mb-4">
+                        ${Array(testimonial.stars).fill('<i class="fas fa-star"></i>').join('')}
+                    </div>
+                    <p class="text-charcoal mb-4">
+                        "${testimonial.text}"
+                    </p>
+                    <p class="font-bold">- ${testimonial.author}</p>
+                `;
+                
+                container.appendChild(testimonialCard);
+            });
+        }
          
                 // Confetti Animation
                 function createConfetti() {
@@ -988,8 +1003,11 @@
             setInterval(addConfettiPiece, 150); // Faster generation: every 150ms instead of 300ms
         }
         
-        // Start confetti when page loads
-        document.addEventListener('DOMContentLoaded', createConfetti);
+        // Start confetti and load testimonials when page loads
+        document.addEventListener('DOMContentLoaded', function() {
+            createConfetti();
+            renderTestimonials();
+        });
         
      
 
@@ -1059,6 +1077,65 @@
                 }
             });
         });
+
+        // Video error handling for gallery
+        const galleryVideos = document.querySelectorAll('.iphone-gallery-content video');
+        galleryVideos.forEach((video, index) => {
+            video.addEventListener('error', function(e) {
+                console.error(`Gallery video ${index + 1} failed to load:`, e);
+                console.error('Video source:', this.querySelector('source').src);
+                // Replace with a placeholder or error message
+                const container = this.parentElement;
+                container.innerHTML = `
+                    <div class="flex items-center justify-center h-full bg-gray-800 text-white text-center p-4">
+                        <div>
+                            <i class="fas fa-exclamation-triangle text-4xl mb-2 text-yellow-500"></i>
+                            <p class="text-sm">Video ${index + 1}<br>Failed to Load</p>
+                        </div>
+                    </div>
+                `;
+            });
+            
+            video.addEventListener('loadstart', function() {
+                console.log(`Gallery video ${index + 1} started loading:`, this.querySelector('source').src);
+            });
+            
+            video.addEventListener('canplay', function() {
+                console.log(`Gallery video ${index + 1} can play:`, this.querySelector('source').src);
+            });
+        });
+
+        // Contact form submission
+        const contactForm = document.querySelector('#contact form');
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+            
+            // Johnson's email address
+            const johnsonEmail = 'johnsonautodetailing.ga@gmail.com';
+            
+            // Create email subject and body
+            const subject = `New Contact Form Message from ${name}`;
+            const body = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
+            
+            // Create mailto link
+            const mailtoLink = `mailto:${johnsonEmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            
+            // Open email client
+            window.location.href = mailtoLink;
+            
+            // Show confirmation message
+            alert('Your email client will open to send the message to Johnson!');
+            
+            // Reset form
+            contactForm.reset();
+        });
+
+
     </script>
 </body>
 </html>
